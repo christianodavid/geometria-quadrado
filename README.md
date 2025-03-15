@@ -33,4 +33,4 @@ Aplicação Java que permite calcular a área ou o perímetro de um quadrado.
 `mvn test` <br>
 
 ## Licença
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE]() para detalhes.
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](https://github.com/christianodavid/geometria-quadrado/blob/main/LICENSE) para detalhes.
