@@ -14,17 +14,21 @@ public class SquareController {
         int choice;
 
         do {
-            choice = view. showMenu();
+            choice = view.showMenu();
 
             if (choice != 0) {
-                double side = view.getSideInput();
-                Square square = new Square(side);
+                double side;
+                Square square;
 
                 switch (choice) {
                     case 1:
+                        side = view.getSideInput();
+                        square = new Square(side);
                         view.showResult("Área", square.calculateArea());
                         break;
                     case 2:
+                        side = view.getSideInput();
+                        square = new Square(side);
                         view.showResult("Perímetro", square.calculatePerimeter());
                         break;
                     default:
